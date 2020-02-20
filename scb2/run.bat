@@ -1,0 +1,1 @@
+Rscript -e "devtools::load_all('.'); %1"

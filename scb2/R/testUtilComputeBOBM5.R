@@ -1,0 +1,22 @@
+testUtilComputeBOBM5 <- function(sampleSize) {
+  cat("\n Testing \'tests_scb2_205_computeBOBM5\' \n")
+
+  cat("\nTest parameters:", "\n")
+  cat("sampleSize =", sampleSize, "\n")
+
+  Start <- Sys.time()
+
+  bOBM <- computeBOBM5(sampleSize = sampleSize)
+
+  End <- Sys.time()
+
+  duration <- End - Start
+
+  cat("\n")
+  cat("Result:\n")
+  cat("Duration =", duration, "\n")
+  cat("result =", bOBM, "\n")
+
+  cat("End of test computeBOBM5", "\n")
+  cat("=====================\n")
+}

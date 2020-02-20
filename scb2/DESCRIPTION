@@ -1,0 +1,16 @@
+Package: scb2
+Title: Computing confidence bands in a simulation process
+Version: 0.0.0.1
+Authors: statistics101 
+Maintainer: statistics101 <medical.data.research@gmail.com>
+Description: Computing confidence bands in a simulation process using S3 approach.
+Depends: R (>= 3.3.0)
+License: BSD
+URL: https://github.com/statistics101/nscb2
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 6.0.1
+Imports: testthat, roxygen2, devtools, lattice, TSA, microbenchmark, R.utils, R.cache
+Suggests: knitr, rmarkdown
+#VignetteBuilder: knitr
+
